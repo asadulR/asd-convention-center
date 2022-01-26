@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-div {
+    margin-left: 100px;
+
+}
+.nav-brand-link{
+    padding-right:px;
+}
+
+.moment-section {
+    position: relative;
+}
+
+.alert-div {
+    border-left: 4px solid salmon;
+    width: 230px;
+    font-size: .8rem;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-weight: 600;
+}
+
+
+
+
+/* Our package section style  */
+.hot-one {
+    border-radius: 30px;
+    box-shadow: 3px 4px 8px gray;
+}
+
+/* marketing-materials section style  */
+
+#marketing-materials{
+    padding: 50px 0;
+}
+#marketing-materials a{
+    color: peru;
+    text-decoration: none;
+}
+#marketing-materials h3{
+    font-size: 1.3rem;
+}
+/* footer  */
+
+.google-play,
+.apple-store {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0px 8px;
+    background-color: black;
+    color: white;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .carousel-item img {
+        height: 400px
+    };
+    
+}
